@@ -1,0 +1,2 @@
+Works well on Ubuntu 12.04 64bit
+Plugged it into my desktop running Ubuntu 12.04 64bit, and it worked out of the box. I use it primarily for Google hangout so I have not tested HD capabilities, the mic is pretty good in picking up sounds and I had to turn down the input volume a bit because people on the other end said I was too loud although I was talking in my normal volume. The camera is solidly built, and it fits nicely on my 25" monitor. It is a USB2.0 camera wonder why its not 3.0. but I don't think that makes much of a difference.
