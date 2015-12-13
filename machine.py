@@ -4,6 +4,7 @@ Text classifier.
 """
 import sys
 import os
+import random
 import numpy as np
 
 from sklearn.feature_extraction.text import TfidfVectorizer
@@ -18,35 +19,47 @@ from sklearn.datasets import load_files
 from sklearn import metrics
 
 path = 'data'
-filelen = sum(os.path.isfile(os.path.join(path, f)) for f in os.listdir(path))
-samples = [] # Use filelen to fix length of array
+files = os.listdir(path)
+perc_train = 80
+
+# Randomize files
+random.shuffle(files)
+
+samples = []
 labels = []
 
-# TODO: Randomize and take 20% for Test - Check Cross-Validation requirements
-for file_name in os.listdir(path):
+for file_name in files:
     if file_name.endswith(".txt"):
+    	test = file_name
     	file = open(os.path.join(path, file_name) ,'r')
     	samples.append(file.read())
     	labels.append(file.name[5]) # TODO: remove 'data\' from string
     	file.close()
 
+n_samples = len(samples)
+print "Total samples read: {}".format(n_samples)
 
-print("n_samples: %d" % len(samples))
-print("n_labels: %d" % len(labels))
-# print samples[2]
+train_samples = samples[0:(perc_train*n_samples)]
+train_labels = labels[0:(perc_train*n_samples)]
+
+perc_test = 100-perc_train
+test_samples = samples[0:(perc_test*n_samples)]
+test_labels = labels[0:(perc_test*n_samples)]
 
 text_clf = Pipeline([
 	('vect', CountVectorizer()),('tfidf', TfidfTransformer()),('clf', MultinomialNB()), 
 ])
 
-text_clf.fit(samples, labels)
+text_clf.fit(train_samples, train_labels)
 
-test_data = [
-	'I have had a pleasant experience with my HP Chromebook 14 these past few days. Its really good for multitasking.',
-	'It is very easy to set up, simply choose wifi network and sign in into your google account.',
-	'Stay out of it, is very slow',
-	'I just decided to return this. While I initially felt the build quality was pretty good, I encountered two problems',
-]
+# test_samples = [
+# 	'I have had a pleasant experience with my HP Chromebook 14 these past few days. Its really good for multitasking.',
+# 	'It is very easy to set up, simply choose wifi network and sign in into your google account.',
+# 	'Stay out of it, is very slow',
+# 	'I just decided to return this. While I initially felt the build quality was pretty good, I encountered two problems',
+# ]
 
-predicted = text_clf.predict(test_data)
-print predicted
+predicted = text_clf.predict(test_samples)
+accuracy = text_clf.score(test_samples, test_labels)
+
+print "Accuracy {}".format(accuracy)
