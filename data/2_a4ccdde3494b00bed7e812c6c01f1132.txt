@@ -1,0 +1,2 @@
+Won't hold ethernet adapted signal.
+Wi-fi only.  My wi-fi service is spotty but the computer, when I get a signal, is good.  I wish they had mentioned than an ethernet adapter doesn't work with this computer.

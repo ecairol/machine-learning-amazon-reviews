@@ -1,0 +1,2 @@
+Great Linux machine
+I bought this laptop to install Linux Mint. Thanks other people mentioned in their reviews that Mint works well on this one. Everything works fine except screen brightness control, I have to use "xrandr --output eDP1 --brightness N" (N from 0.4 to 1.0). Excellent quality for the price. Very lightweight, excellent travel companion. With Linux the battery life is between 4 and 5 hours, but I am developing software on it, so not a big surprise.My favourite laptop ever.

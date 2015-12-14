@@ -1,0 +1,2 @@
+Funny business = 2 stars [malware + no OEM key]
+While the hardware was in good order the device came pre-loaded with adware as well as a remote disk imaging malware. In addition, the package did not include the OEM key (Windows 8 serial) which is typically found in sticker form at the bottom the machine -- this made it more difficult to do a fresh install & wipe.Funny business = 2 stars

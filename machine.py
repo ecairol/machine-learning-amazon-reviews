@@ -52,13 +52,6 @@ text_clf = Pipeline([
 
 text_clf.fit(train_samples, train_labels)
 
-# test_samples = [
-# 	'I have had a pleasant experience with my HP Chromebook 14 these past few days. Its really good for multitasking.',
-# 	'It is very easy to set up, simply choose wifi network and sign in into your google account.',
-# 	'Stay out of it, is very slow',
-# 	'I just decided to return this. While I initially felt the build quality was pretty good, I encountered two problems',
-# ]
-
 predicted = text_clf.predict(test_samples)
 accuracy = text_clf.score(test_samples, test_labels)
 

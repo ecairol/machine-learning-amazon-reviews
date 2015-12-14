@@ -1,0 +1,2 @@
+Fine, and well
+Received this as an early xmas gift. Was excited to begin using this as my daily driver at work. Unfortunately right out of the box it just loaded to BIOS. Fine, and well. Attempted to flash update the BIOS to no avail. It simply would not read the boot SSD. Unfortunately, without taking it apart I can't know what's possibly wrong; will be returning this and looking elsewhere.

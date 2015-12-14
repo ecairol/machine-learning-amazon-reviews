@@ -1,0 +1,2 @@
+LINUX USERS WARNING 0_0
+Its a fast chrome book but you can't boot from a USB and the only way you can get Linux on it is if you use the crouton script here is a link https://github.com/dnschneid/crouton GOOD LUCK :)

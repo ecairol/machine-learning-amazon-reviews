@@ -1,0 +1,2 @@
+SSD dead after a month
+The 256GB SSD completely died after a little over a month of light use without any warning signs. Went to turn it on one morning and it went straight to the BIOS screen which showed no drives installed. All data was lost.

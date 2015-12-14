@@ -1,0 +1,2 @@
+MINECRAFT AND SKYRIM WORKS
+TO THE GAMERS OUT THERE: Yes, Minecraft and Skyrim does work! Just remember that on Minecraft, to lower some settings, including cutting the fps down to 30, and setting Java at High Priority via Task Manager (you can Google how to do this). Skyrim will automatically choose to run at the proper performance levels (it'll set itself so you don't have to).

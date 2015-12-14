@@ -1,0 +1,2 @@
+This notebook PC does not have caps lock indicator led, nor led indicator on the numeric keypad
+It's a notebook pc very basic ideal for simple jobs and the most important and surprising is that it has led uppercase flag and lowercase (no have cap lock LED indicator) it's very bad because if you write a password for example, will not know if keyboard is typing in upper or lower case, nor brings lED indicator on the keypad (feature in most of the pc notebook is included) do not really like this notebook.

@@ -1,0 +1,2 @@
+Failed CMOS Battery
+As mentioned by someone else, I also have a failed CMOS battery and the date and time will go out of sync every time I turn it off/put it to sleep. So definitely not an isolated issue. it's a shame because I actually like it otherwise. The laptop looks and feels solid and specs are respectable (6th gen i7, ssd, full HD, backlit keyboard and dedicated graphic card) for a little bit over $700. I contacted Asus, and was told to get a replacement unit. I might as well just retun it.

@@ -1,0 +1,2 @@
+Great for games in a mature adult look.
+It looked great and touted an I7 processor, but the problem is that it really is an i5! with a dual core rather than a quad core processor. I used it to 3D render. It would show 8 threads instead of 4 for a typical i7 processor. It is intel's nomenclature that still call it an i7, but it really is an i5 :(

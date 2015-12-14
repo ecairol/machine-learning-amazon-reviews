@@ -1,0 +1,2 @@
+Backlight bleed
+Nastiest backlight bleed I have ever seen. Literally the second you power on you see it on the boot screen. I have noticed now that the backlight bleed is a widely known issue. Also the mouse was erratic. I will probably order another one and give it a second chance, but for the price I was surprised at the low quality controls on the lcd. I dislike the way manufacturers are trending towards soldered non-upgradeable ram and now ssds as well.

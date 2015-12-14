@@ -1,0 +1,2 @@
+Highly Recommend for Ubuntu 14.04
+This is my first week with the Zenbook and I absolutely love it. I have been running Ubuntu on a range of laptops for several years, and I would have to say this has been my most pleasant experience so far. Installed Ubuntu 14.04 without issue, with only the screen brightness as the issue -- which this fixed: https://github.com/thezerobit/asus-zenbook-ux305faThe laptop is sleek, light, and works perfectly for working on the bus. It is the best Ubuntu Laptop I have ever worked on and is definitely worth the price.

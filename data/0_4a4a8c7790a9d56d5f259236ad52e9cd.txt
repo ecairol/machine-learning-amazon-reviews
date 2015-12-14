@@ -1,0 +1,2 @@
+Unless you have a Google Print Printer, skip this one.
+I had to return this. It slowed down out of the box while running 2 instances of chrome. But even worse, trying to print with it to a non-Google Print enabled printer is next to impossible. You have to add the printer to your network with a different computer, fine. But your chromebook can only see the printer if the computer you networked your printer with is still on and awake. Utter nonsense.

@@ -1,0 +1,2 @@
+Trackpad troubles
+Trackpad slow to respond at times many, many clicks to get a response

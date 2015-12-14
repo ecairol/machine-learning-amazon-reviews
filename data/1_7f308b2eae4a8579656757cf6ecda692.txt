@@ -1,0 +1,2 @@
+Issues with intel graphics driver on Windows is really annoying.
+After a month of usage, I noticed how this laptop would have the intel graphics driver to crash OFTEN when not plugged in charger. I googled and found out there is no solution for it and Asus provide no support to it (hence it is a component issue).The graphic board is slow and crashes as mentioned if you use Windows. I can't stand use this laptop on Windows anymore (both 8.1 and 10). On Linux it works perfectly.

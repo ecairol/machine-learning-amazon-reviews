@@ -1,0 +1,2 @@
+not recommended
+Very sluggish performance.  Virtually unusable.

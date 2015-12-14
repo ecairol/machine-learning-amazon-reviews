@@ -1,0 +1,2 @@
+Runs Linux Fedora 22 without any problems.
+For light computing like emails and surfing the web this computer is fine.I upgraded to Windows 10 right away (took several hours to upgrade) and windows 10 was better than window 8.1.But I still am not a windows fan.If you like Linux you will be happy to know Fedora 22 runs without any problems.I have it set up with dual boot, though I now never see a need to boot windows 10.I use Fedora since it runs great on this slower PC.If you use Windows it still runs good enough.

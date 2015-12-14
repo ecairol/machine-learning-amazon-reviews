@@ -1,0 +1,2 @@
+Specs look good but, in practice
+Specs look good but, in practice, the build quality is so bad that it's fairly unusable. Keyboard is terrible and misses a good 10% of presses, the post-manufacture modifications that asus did to the Intel graphics card makes it crash every 10 minutes or so, if you open the screen fully it lifts the back two rubber "feet" off the surface you're using and so the thing slides around all over the place. Pretty crappy for $799.

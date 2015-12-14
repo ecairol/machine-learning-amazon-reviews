@@ -1,0 +1,2 @@
+NO BOOT DEVICE FOUND and WILL NOT CHARGE
+After 7 months the machine display a "will not charge message" and I bought another charger; did not fix problem.Now I have a "no boot device found' and it will not load beyond this.

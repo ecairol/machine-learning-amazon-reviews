@@ -1,0 +1,2 @@
+Useless offline.
+When I have a stable internet connection, this computer works as expected, but the offline capabilities of Chrome OS have been greatly exaggerated.  I wasn't expecting much beyond offline word processing, but it can't even do that reliably.  Files will disappear and reappear at random, and edits are sometimes lost if you close the document before syncing.  I know the computer is intended primarily for online use, but I was expecting more than an shiny black brick offline.

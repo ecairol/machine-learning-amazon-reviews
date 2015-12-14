@@ -1,0 +1,2 @@
+Broken almost immediately
+I bought a brand new ASUS Zenbook and it only turned on once after unboxing. The next day it ceased to work (after closing the lid on it for the night, leaving it charged). The charging light appeared orange, and then green once it was fully charged, but when I press the power button, the only perceptible behavior is a tinny whirring, and the tiny LEDs under the power, caps lock, and airplane mode buttons to light up and fade out a few seconds later.

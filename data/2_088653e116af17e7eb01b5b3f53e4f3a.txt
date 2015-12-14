@@ -1,0 +1,2 @@
+Nice Linux Book
+Running ubuntu on it, installed quickly and haven't had much problem using the laptop at all. The backlight doesn't work out of the box with ubuntu, but xbacklight and keybinds can fix that.
