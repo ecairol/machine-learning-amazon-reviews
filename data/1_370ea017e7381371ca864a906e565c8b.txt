@@ -1,2 +1,0 @@
-Be Careful.
-I failed to do enough due diligence on this.  It will not play dvd's even though it has USB ports.  The RT operating system disallows them.

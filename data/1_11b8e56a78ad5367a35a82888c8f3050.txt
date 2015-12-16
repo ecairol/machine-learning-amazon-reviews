@@ -1,2 +1,0 @@
-service pc
-Only for  email  and looking  at websites

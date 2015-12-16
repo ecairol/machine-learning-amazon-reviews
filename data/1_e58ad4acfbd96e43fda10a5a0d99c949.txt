@@ -1,2 +1,0 @@
-Meh
-Freezes when it tries to load a video or gif sometimes.

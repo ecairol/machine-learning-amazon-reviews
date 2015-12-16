@@ -1,6 +1,8 @@
-# author: Esteban Cairol - ecairol
-# Scraper that receives an Amazon Customer Reviews URL asand writes a txt file per review
-# Labels are generated depending on the rating: 0 Negative (1 or 2 stars) - 1 Neutral (3 stars) - 2 Positive (4 or 5 stars)
+"""
+Author: Esteban Cairol - ecairol
+Scraper that receives an Amazon Customer Reviews URL and writes a txt file per review
+Labels are generated depending on the rating: Negative (1 or 2 stars) or Positive (4 or 5 stars), 0 or 1 respectively
+"""
 
 import os
 import requests
@@ -8,6 +10,9 @@ import sys
 import hashlib
 import time
 from bs4 import BeautifulSoup
+
+LABEL_POSITIVE = 1
+LABEL_NEGATIVE = 0
 
 def scrapUrl(url):
 	htmlPage = requests.get(url)
@@ -23,14 +28,14 @@ def scrapUrl(url):
 	stored = 0
 	for review in reviews:
 		try:
+
+			# Define label based on the stars given to the review
 			stars = int(review.find('i', {'class':'review-rating'}).get_text()[0])
 			if stars >= 4:
-				label = 2 # Positive
+				label = LABEL_POSITIVE
 			elif stars <=2:
-				label = 0 # Negative
-			else:
-				label = 1 # Neutral
-			
+				label = LABEL_NEGATIVE
+
 			title = review.find('a', {'class':'review-title'}).get_text()
 			text = review.find('span', {'class':'review-text'}).get_text()
 
@@ -49,15 +54,13 @@ def scrapUrl(url):
 			text_file.write(file_content)
 			text_file.close()
 			stored += 1
-
-			# print label,"\n",title, text, "\n"
 		
 		except Exception, e:
 			print e
 
 	print "\n{} out of {} saved".format(stored,len(reviews))
 
-	newurl = raw_input('\nWant to add another URL? Paste it here: ')
+	newurl = raw_input('\nWant to scrap another URL? Paste it here: ')
 	scrapUrl(newurl)
 
 

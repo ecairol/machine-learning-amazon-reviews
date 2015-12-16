@@ -1,7 +1,8 @@
 """
 Author: Esteban Cairol
-Text classifier. Sentiment analysis from Amazon reviews
+Text classifier. Binary sentiment text analysis for Amazon's computer reviews
 """
+
 import sys
 import os
 import random
@@ -32,13 +33,10 @@ labels = []
 
 for file_name in files:
     if file_name.endswith(".txt"):
-    	# Ignore reviews with 3 stars ('Neutral' reviews, starting with 1)
-    	if file_name.startswith("1"):
-    		continue
     	test = file_name
     	file = open(os.path.join(path, file_name) ,'r')
     	samples.append(file.read())
-    	labels.append(file.name[5]) # TODO: remove 'data\' from string
+    	labels.append(file.name[5]) # remove 'data\' from string
     	file.close()
 
 n_samples = len(samples)
@@ -76,6 +74,18 @@ print "Building confusion matrix..."
 conf = confusion_matrix(test_labels, predicted)
 print "Confusion Matrix \n {}".format(conf)
 plt.imshow(conf, cmap='binary', interpolation='None')
+
+
+# Manual test
+def manualPredict(review):
+    prediction = text_clf.predict([review])
+    print prediction
+    userReview = raw_input('Enter another Amazon review: ')
+    manualPredict(userReview)
+    pass
+
+userReview = raw_input('Enter an Amazon review: ')
+manualPredict(userReview)
 
 
 """
